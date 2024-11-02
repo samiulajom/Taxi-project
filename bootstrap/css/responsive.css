@@ -1,0 +1,213 @@
+/* *****************
+Tempalete Name:Taxi -company Htm 5 Tempalets
+Author Name:NSS Theme
+Designer:Md. Samiul Ajom
+===============================
+1.extra large
+2.desktop,laptop
+3.tablet
+4.mobile
+*/
+
+/*1 extra large */
+@media (min-width: 1400px) {
+}
+/*2 laptop  */
+@media (max-width: 1440px) {
+  .banner-caption {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .common {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-caption {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .tax-rate-btn {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1350px) {
+  .nav-link {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .taxi-btn {
+    font-size: 12px;
+  }
+  .nav-side-item p {
+    font-size: 12px;
+  }
+  .nav-side-item a {
+    font-size: 12px;
+  }
+  .taxi-nav-topbar p,
+  .taxi-nav-topbar a {
+    font-size: 14px;
+  }
+  .taxi-supper-right .common {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .dis-btn {
+    margin-top: 0;
+  }
+}
+@media (max-width: 991px) {
+  /* app start*/
+  .taxi-app::after {
+    /* position: absolute;
+    content: "";
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background: var(--yellow);
+    top: 70%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; */
+    display: none;
+  }
+  .WORKSPACE {
+    margin-left: 0;
+  }
+  .app-right {
+    background: var(--yellow);
+  }
+  /* app end*/
+}
+/*3 tablet  */
+@media (max-width: 768px) {
+  /* common start*/
+  .small-content {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  /* common end*/
+  /* header start */
+  .taxi-btn {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .search-icon {
+    left: 80%;
+  }
+  .top-item a {
+    font-size: 14px;
+  }
+  /* header end */
+  /* banner start */
+  .taxi-banner img{
+    height: 70vh;
+  }
+  .banner-content h4 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  /* banner end */
+  /* book start */
+ 
+  .book-form-left {
+    margin-bottom: 50px;
+  }
+  .book-contact {
+    bottom: -10px;
+  }
+  .book-contact h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .book-form form input {
+    width: 100%;
+  }
+  /* book end */
+
+  /* feedback start*/
+  .taxi-feedback .owl-dots {
+    margin: 0;
+  }
+  .taxi-feedback .owl-dots::after {
+    width: 50%;
+  }
+  /* feedback end*/
+  /* taxi safe statrt */
+  .taxi-safe-tittle {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  /* taxi safe end */
+  /* footer strt */
+  .taxi-footer-details {
+    margin-top: 100px !important;
+  }
+  /* footer end */
+}
+/*4 mobile */
+@media (max-width: 576px) {
+  /* common start*/
+
+  .common {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  /* common end */
+  /* banner start */
+  .taxi-banner img{
+    height: 60vh;
+  }
+  .taxi-carousel-btn button {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+  .banner-content {
+    margin-left: 10px;
+  }
+  .banner-content p {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 0;
+  }
+  .banner-caption {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+  .taxi-ban-btn1,
+  .taxi-ban-btn2 {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .taxi-carousel-btn button::after {
+    width: 30px;
+    height: 30px;
+  }
+  .taxi-carousel-btn button::before {
+    height: 100px;
+  }
+  .taxi-carousel-btn .carousel-control-prev {
+    left: 0%;
+  }
+  .taxi-carousel-btn .carousel-control-next {
+    right: 0%;
+  }
+  /* banner end */
+}
+
+@media (max-width: 576px) {
+  .taxi-banner img{
+    height: 60vh;
+  }
+}
+@media (max-width:375px){
+  .taxi-banner img{
+    height: 250px;
+  }
+}
