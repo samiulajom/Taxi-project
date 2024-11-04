@@ -44,6 +44,6 @@
 https://github.com/samiulajom/Taxi-project.git
 
 ## Project live link:
-
 https://samiulajom.github.io/Taxi-project/
+## Project overview:
 ![Home Image](production/01_Home.png)
