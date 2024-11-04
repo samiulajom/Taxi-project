@@ -1,4 +1,3 @@
-![Home Image](production/01_Home.png)
 # Tempalete Name:
 
 ### Taxi -company Htm 5 Tempalets
@@ -46,3 +45,4 @@ https://github.com/samiulajom/Taxi-project.git
 ## Project live link:
 
 https://samiulajom.github.io/Taxi-project/
+![Home Image](production/01_Home.png)
