@@ -8,7 +8,7 @@
     <!-- title start -->
     <title>Taxi company</title>
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="./image/home/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="/image/home/favicon/favicon-32x32.png">
     <!-- tittle end -->
     <!-- fontawsome start-->
     <link
@@ -510,12 +510,14 @@
                   name="username"
                   id="username"
                   placeholder="Your Name"
+                  autocomplete="off"
                 />
                 <input
                   type="tel"
                   name="usernumber"
                   id="usernumber"
                   placeholder="Phone Number"
+                  autocomplete="off"
                 />
               </div>
               <div
@@ -527,12 +529,14 @@
                   name="Passanger"
                   id="passanger"
                   class="form-select"
+               
                 />
                 <input
                   type="text"
                   name="destinationn"
                   id="startDesti"
                   placeholder="Start destination"
+                  
                 />
               </div>
 
@@ -1418,7 +1422,7 @@
                 class="f-form d-flex align-items-center"
                 method="get"
               >
-                <input type="email" placeholder="Your email address" />
+                <input type="email" placeholder="Your email address" name="email" autocomplete="on"/>
                 <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
               </form>
               <div class="f-social-icon d-flex py-4 gap-3">
